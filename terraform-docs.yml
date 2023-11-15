@@ -1,0 +1,38 @@
+version: ">= 0.12.1"
+
+formatter: markdown
+
+# To append any document before the terraform documentation, uncomment and mention the path to document below
+#header-from: docs/header.md
+
+# To append any document after the terraform documentation, uncomment and mention the path to document below
+#footer-from: docs/footer.md
+
+sections:
+  hide: []
+
+content: |-
+  {{ .Header }}
+  {{ .Requirements }}
+  {{ .Providers }}
+  {{ .Inputs }}
+  {{ .Outputs }}
+  {{ .Resources }}
+  {{ .Footer }}
+
+
+output:
+  file: "README.md"
+  mode: replace
+
+sort:
+  enabled: true
+  by: ["required"]
+
+settings:
+  anchor: true
+  color: true
+  default: true
+  indent: 2
+  required: true
+  type: true
