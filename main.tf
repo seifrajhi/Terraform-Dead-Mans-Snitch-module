@@ -4,10 +4,6 @@ terraform {
       source = "plukevdh/dmsnitch"
       version = "0.1.5"
     }
-    vault = {
-      source  = "hashicorp/vault"
-      version = "3.12.0"
-    }
   }
 }
 
