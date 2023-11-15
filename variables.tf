@@ -24,11 +24,11 @@ variable "snitch_type" {
 variable "snitch_tags" {
   type        = list(string)
   description = "The tag should be match with PD integrations tag"
-  default     = ["cpseu"]
+  default     = ["DMS"]
 }
 
 variable "snitch_emails" {
   type        = list(string)
   description = "An array of values"
-  default     = ["cps-eu@justeattakeaway.com"]
+  default     = ["example@example.com]
 }
