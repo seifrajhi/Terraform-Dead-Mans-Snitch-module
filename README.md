@@ -25,10 +25,10 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_snitch_emails"></a> [snitch\_emails](#input\_snitch\_emails) | An array of values | `list(string)` | <pre>[<br>  "cps-eu@justeattakeaway.com"<br>]</pre> | no |
+| <a name="input_snitch_emails"></a> [snitch\_emails](#input\_snitch\_emails) | An array of values | `list(string)` | <pre>[<br>  "example@example.com"<br>]</pre> | no |
 | <a name="input_snitch_interval"></a> [snitch\_interval](#input\_snitch\_interval) | Interval of the snitch | `string` | `"5_minute"` | no |
 | <a name="input_snitch_name"></a> [snitch\_name](#input\_snitch\_name) | Name of the snitch | `string` | n/a | yes |
-| <a name="input_snitch_tags"></a> [snitch\_tags](#input\_snitch\_tags) | The tag should be match with PD integrations tag | `list(string)` | <pre>[<br>  "cpseu"<br>]</pre> | no |
+| <a name="input_snitch_tags"></a> [snitch\_tags](#input\_snitch\_tags) | The tag should be match with PD integrations tag | `list(string)` | <pre>[<br>  "DMS"<br>]</pre> | no |
 | <a name="input_snitch_type"></a> [snitch\_type](#input\_snitch\_type) | Snitch type is basic or smart, smart is only valid for weekly or monthly | `string` | `"basic"` | no |
 
 ## Outputs
